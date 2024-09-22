@@ -15,7 +15,7 @@ from AnonXMusic.utils.formatters import time_to_seconds
 
 
 def cookies():
-    cookie_dir = "AnonXMusic/utils/cookies/cookies.txt"
+    cookie_dir = "AnonXMusic/utils/cookies"
     cookies_files = [f for f in os.listdir(cookie_dir) if f.endswith(".txt")]
 
     cookie_file = os.path.join(cookie_dir, random.choice(cookies_files))
