@@ -23,6 +23,6 @@ tgcrypto
 unidecode
 yt-dlp
 youtube-search
-youtube-search-python
+youtubesearchpython
 git+https://github.com/alexmercerind/youtube-search-python@main
 git+https://github.com/joetats/youtube_search@master
